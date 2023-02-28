@@ -25,9 +25,20 @@ Artificial Inteligence wiki and projects!
 - Maximum Likelihood Estimation (MLE) is a method for estimating the parameters of a statistical model. The goal of MLE is to find the parameter values that make the observed data most probable, given the assumed probability distribution of the data.
 - Regularization: is a technique used in machine learning and statistics to prevent overfitting by adding a penalty term to the cost function. Overfitting occurs when a model is too complex and fits the noise in the data, instead of the underlying pattern. This leads to poor generalization performance on new, unseen data.
 
-# Regression problems
 
-- In order to solve problems related to Polynomial Curve Fitting we need to use the following formula:
+# Machine Learning
+
+## Methodologies
+- ASUM-DM  
+Enumerate all phases of ASUM-DM methodology.
+### Advices
+- Es posible realizar Imputaciones, esto es reemplazar la información faltante.
+- La eliminación de registros es lo último que se debe hacer, ya que se pierde información.
+- Revisión del porcentaje de valores nulls en cada columna.
+
+## Regression problems
+
+In order to solve problems related to Polynomial Curve Fitting we need to use the following formula:
 $$
 y(x, w) = w_0 + w_1x + w_2x^2 + ... w_mx^m = \sum_{i=0}^m w_jx^j
 $$
@@ -35,4 +46,10 @@ $$
 Functions, such as the polynomial, which
 are linear in the unknown parameters have important properties and are called **linear
 models**.
+
+
+
+
+
+
 
